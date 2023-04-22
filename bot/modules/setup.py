@@ -1,5 +1,5 @@
-from .start import setup
+from .start import setup_start_module
 
 
 def setup_modules(dp):
-    setup(dp)
+    setup_start_module(dp)
