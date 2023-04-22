@@ -20,6 +20,6 @@ class StartModule(Module):
         self.dp.register_message_handler(self.start_cmd_handler, commands=["start"])
 
 
-def setup(dp: Dispatcher):
+def setup_start_module(dp: Dispatcher):
     sm = StartModule(dp)
     sm.setup()
